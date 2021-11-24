@@ -43,7 +43,7 @@
     font-family: 'xeicon';
     content: "\e921";
     color: #fff;
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 /* header */
@@ -81,7 +81,7 @@ header {
 }
 
 .gnb ul > li a {
-    font-size: .8vw;
+    font-size: 1.3rem;
     font-weight: 700;
 }
 
@@ -111,7 +111,7 @@ header {
 }
 
 .gnb ul .gnb_2dep_1 li a, .gnb ul .gnb_2dep_2 li a {
-    font-size: .8vw;
+    font-size: 1.3rem;
     font-weight: 400;
     color: #666;
 }
@@ -139,14 +139,14 @@ header {
 }
 
 .login_join li a{
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #686d6b;
     padding: 0 5px;
 }
 
 .login_join li:first-child:after {
     content: ' | ';
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #686d6b;
 }
 
@@ -176,7 +176,7 @@ header {
 
 .lang_list {
     display: none;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 500;
     text-align: center;
     border: 1px solid #000;
@@ -205,9 +205,9 @@ header {
 }
 
 .bg_icons_wrap {
+    width: 100%;
+    height: 265px;
     position: relative;
-    /* width: 100%;
-    height: 600px; */
 }
 
 .bg_icons_wrap .bg_move01 {
@@ -218,6 +218,7 @@ header {
     position: absolute;
     top: 75px;
     left: 0;
+    z-index: 3;
 }
 
 .bg_icons_wrap .bg_move02 {
@@ -228,22 +229,28 @@ header {
     position: absolute;
     top: 30px;
     right: 0;
+    z-index: 3;
 }
 
 .main_title_box {
     width: 900px;
     overflow: hidden;
     text-align: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 4;
+    transform: translateX(-50%);
 }
 
 .main_title_box h2 {
-    font-size: 50px;
+    font-size: 5rem;
     line-height: 1.5;
 }
 
 .main_title_box p {
-    font-size: 25px;
+    font-size: 2.5rem;
     line-height: 1.5;
     margin-top: 40px;
 }
@@ -259,6 +266,7 @@ header {
     display: inline-block;
     width: 170px;
     height: 52px;
+    font-size: 1.6rem;
     font-weight: 700;
     line-height: 52px;
     text-align: center;
@@ -325,7 +333,7 @@ header {
 
 .con2_title h2, .con3_title h2,
 .con4_title h2 {
-    font-size: 50px;
+    font-size: 5rem;
     line-height: 1.5;
 }
 
@@ -386,7 +394,7 @@ header {
 .con2_box5_txt h3 {
     display: block;
     color: #fff;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
     padding-bottom: 10px;
     position: relative;
@@ -515,7 +523,7 @@ header {
 
 .con2_box1_txt h4, .con2_box2_txt h4,
 .con2_box5_txt h4 {
-    font-size: 28px;
+    font-size: 2.8rem;
     color: #fff;
     margin: 30px 0 20px;
 }
@@ -523,7 +531,7 @@ header {
 .con2_box1_txt p, .con2_box2_txt p,
 .con2_box5_txt p {
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.6rem;
     line-height: 1.7;
 }
 
@@ -549,7 +557,7 @@ header {
 }
 
 .con2_box_below span {
-    font-size: 20px;
+    font-size: 2rem;
     color: #fff;
 }
 
@@ -579,7 +587,7 @@ header {
 .con2_box8_txt h3 {
     display: block;
     color: #00c5a8;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
     padding-bottom: 10px;
     position: relative;
@@ -610,7 +618,7 @@ header {
 
 .con2_box3_txt h4, .con2_box4_txt h4, .con2_box6_txt h4,
 .con2_box7_txt h4, .con2_box8_txt h4 {
-    font-size: 28px;
+    font-size: 2.8rem;
     color: #111;
     margin: 30px 0 20px;
 }
@@ -618,7 +626,7 @@ header {
 .con2_box3_txt p, .con2_box4_txt p, .con2_box6_txt p,
 .con2_box7_txt p, .con2_box8_txt p {
     color: #111;
-    font-size: 1rem;
+    font-size: 1.6rem;
     line-height: 1.7;
 }
 
@@ -642,7 +650,7 @@ header {
     color: #111;
     text-align: center;
     line-height: 72px;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
     border: 1px solid #888;
     border-radius: 35px;
@@ -691,7 +699,7 @@ header {
     font-family: 'xeicon';
     content: "\e93d";
     color: #aaa;
-    font-size: 100px;
+    font-size: 10rem;
 }
 
 .swiper-button-next {
@@ -705,7 +713,7 @@ header {
     font-family: 'xeicon';
     content: "\e940";
     color: #aaa;
-    font-size: 100px;
+    font-size: 10rem;
 }
 
 .play_video {
@@ -725,7 +733,7 @@ header {
 
 .textOnVideo {
     color: #fff;
-    font-size: 28px;
+    font-size: 2.8rem;
     font-weight: 700;
     position: absolute;
     top: 7%;
@@ -735,7 +743,7 @@ header {
 
 .pageOnVideo {
     color: #fff;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 700;
     position: absolute;
     top: 7%;
@@ -830,7 +838,7 @@ header {
 
 .nav_small li:first-child a {
     color: #56c1a8;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
     border-bottom: 2px solid #56c1a8;
     padding-bottom: 10px;
@@ -838,13 +846,13 @@ header {
 
 .nav_small li:last-child a {
     color: #222;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
 }
 
 .nav_small li:last-child a:hover {
     color: #56c1a8;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
     border-bottom: 2px solid #56c1a8;
     padding-bottom: 10px;
@@ -886,7 +894,7 @@ header {
     width: 120px;
     height: 120px;
     color: #fff;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
     border-radius: 0 10px ;
     display: table;
@@ -915,13 +923,13 @@ header {
 
 .con4_box_all h3 {
     color: #222;
-    font-size: 28px;
+    font-size: 2.8rem;
     margin-top: 50px;
 }
 
 .con4_box_all p {
     color: #777;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 33px;
     margin-top: 15px;
 }
@@ -954,7 +962,7 @@ header {
 
 .con5_box_R p {
     color: #111;
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 700;
     margin: 0 0 40px 60px;
 }
@@ -999,7 +1007,7 @@ footer {
 
 .footer_nav1_1dep > a {
     color: #111;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 1.5;
     padding-bottom: 3px;
@@ -1040,7 +1048,7 @@ footer {
 
 .footer_nav1_1dep ul li a {
     color: #aaa;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 300;
     padding-bottom: 3px;
 }
@@ -1075,7 +1083,7 @@ footer {
 }
 
 .footer_nav2 li:first-child a {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 700;
     color: #666;
 }
@@ -1087,7 +1095,7 @@ footer {
 .subscribe {
     display: inline-block;
     color: #666;
-    font-size: 12px;
+    font-size: 1.2rem;
     background: #eee;
     border-radius: 5px;
     padding: 5px 15px;
@@ -1147,13 +1155,13 @@ footer {
 
 .footer_txt h3 {
     color: #111;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 
 .footer_txt p {
     color: #777;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.5;
     margin-top: 5px;
@@ -1164,7 +1172,7 @@ footer {
 .goTop {
     border: none;
     background: none;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #111;
     cursor: pointer;
     position: absolute;
@@ -1203,7 +1211,7 @@ footer {
     height: 40px;
     border: none;
     background: none;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 500;
     text-align: left;
     color: #333;
@@ -1214,7 +1222,7 @@ footer {
 }
 
 .xi-angle-down {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 800;
     position: absolute;
     top: 35%;
@@ -1222,7 +1230,7 @@ footer {
 }
 
 .xi-angle-up {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 800;
     position: absolute;
     top: 35%;
@@ -1253,7 +1261,7 @@ footer {
 }
 
 .familySite_list li a {
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 500;
 }
 
@@ -1295,7 +1303,7 @@ footer {
     display: block;
     width: 60px;
     height: 60px;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
     color: #111;
     background: #fff;
@@ -1366,7 +1374,7 @@ footer {
     animation: flt_fade 1s;
 }
 
-.floating_btn li a:hover>span {
+.floating_btn li a:hover > span {
     display: inline-block;
     line-height: 60px;
     text-align: center;
