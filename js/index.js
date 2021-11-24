@@ -602,7 +602,7 @@ $(document).ready(function(){
 
   // footer '위로' 버튼
   $(".goTop").on("click", function(){
-    scrollTo(0, 0), 100;
+    window.scrollTo({top:0, left:0, behavior:'smooth'});
   });
 
 
