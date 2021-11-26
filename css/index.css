@@ -102,7 +102,7 @@ header {
     display: none;
     position: absolute;
     top: 5vh;
-    right: 0;
+    right: -5vw;
 }
 
 .gnb ul .gnb_2dep_1 li a:hover, .gnb ul .gnb_2dep_2 li a:hover {
