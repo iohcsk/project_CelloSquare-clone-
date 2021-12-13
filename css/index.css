@@ -295,6 +295,10 @@ header {
     position: relative;
 }
 
+.con1_wrap h2 {
+    display: none;
+}
+
 .con1_video_box {
     max-width: 1320px;
     margin: 0 auto;
@@ -959,10 +963,11 @@ header {
     width: 40%;
 }
 
-.con5_box_R p {
+.con5_box_R h2 {
     color: #111;
     font-size: 4rem;
     font-weight: 700;
+    line-height: 1.5;
     margin: 0 0 40px 60px;
 }
 
