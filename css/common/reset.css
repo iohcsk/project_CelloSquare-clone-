@@ -46,3 +46,7 @@ img {
 button {
 	font-family: 'Noto Sans KR', sans-serif;
 }
+
+iframe {
+	border: none;
+}
